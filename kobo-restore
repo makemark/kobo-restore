@@ -1,4 +1,5 @@
 #!/bin/bash
+# kobo-restore version 0.1-$Rev$
 # Restore a corrupted Kobo database
 # 
 # This script will back up your Kobo's database to a local directory
@@ -47,8 +48,7 @@
 ### CONFIGURATION ###
 
 # Set this to the path to your Kobo's root directory:
-#KOBO_MOUNT_POINT=/media/KOBOeReader
-KOBO_MOUNT_POINT=/home/god/dev/kobo
+KOBO_MOUNT_POINT=/media/KOBOeReader
 
 # Set this to your SQLite command:
 SQLITE=sqlite3
